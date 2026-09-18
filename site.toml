@@ -1,0 +1,26 @@
+# Your details. Page texts live in content/, posts in content/posts/.
+
+[site]
+name = "Simon Appoltshauser"
+tagline = "Computational neuroscience · how machines read human intent from the body"
+description = "Simon Appoltshauser, computational neuroscientist: surface EMG, movement kinematics, posture, gait and human–robot interaction."  # shown in search results
+base_url = "https://322simon.github.io"  # the final address (GitHub Pages for github.com/322Simon)
+language = "en"                   # "en" or "de": date format and the few built-in labels
+since = 2026                      # first year in the footer's © line
+search_engines = false            # false = Google & co. are asked not to list the site (while friends review it)
+
+# Obsidian shows a single line break as a line break; plain Markdown ignores it.
+obsidian_line_breaks = true
+
+[writing]
+path = "wiki"  # entries appear at /wiki/<entry>/; the section's intro text is content/wiki.md
+
+# Footer links (and wherever a page says {{ links }}), in this order.
+# Empty values are hidden. A value without "https://" is a file in static/, e.g. "static/cv.pdf".
+[links]
+email = "simonappolts@outlook.de"  # written so simple spam bots can't read it
+scholar = "https://scholar.google.com/citations?user=ed2GqOIAAAAJ&hl=en"
+linkedin = "https://www.linkedin.com/in/simon-appoltshauser-85a1b7343/"
+cv = ""          # a web version without phone number and home address, e.g. "static/cv.pdf"
+github = ""      # left out on purpose until there is public code to show
+orcid = ""

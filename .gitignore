@@ -1,0 +1,6 @@
+_site/
+__pycache__/
+.venv/
+
+# Unfinished posts stay on this computer only
+content/drafts/
